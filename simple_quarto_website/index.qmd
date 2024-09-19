@@ -1,0 +1,98 @@
+---
+title: "Impromptu BibTeX Find and Merge Tool"
+format: html
+toc: true
+bibliography: reference.bib
+---
+
+
+# Introduction
+
+-The **Impromptu BibTeX Find and Merge Tool**, developed by MJ Marchywka, 
+is a Bash script designed to scrape BibTeX entries from arbitrary web 
+pages. 
+-This tool simplifies the process of gathering citations by 
+automating the detection of BibTeX entries for citation management [@marchywka2021impromptu].
+
+>"A tool that simplifies BibTeX citation management can significantly 
+enhance research efficiency." — Anonymous Researcher
+
+## Features of the Tool
+Here are the primary charactrstics of the **Impromptu BibTeX Find and 
+Merge Tool**:
+
+- **Automatic Detection**: The tool automatically finds BibTeX citations 
+on webpages.
+- **Customizable Scraping**: Users can modify the scraping parameters to 
+suit their needs.
+
+::: {.columns}
+::: {.column width="50%"}
+**Manual BibTeX Entry**: Finding and copying is time-consuming.
+:::
+::: {.column width="50%"}
+**Automated BibTeX Entry**: The tool automates BibTeX citation retrieval 
+and merging.
+:::
+:::
+## Tool Workflow
+
+The following table outlines the typical workflow of the **Impromptu 
+BibTeX Find and Merge Tool**:
+
+| Step              | Description                                      |
+|-------------------|--------------------------------------------------|
+| 1. Web Scraping   | Automatically detects BibTeX citations on pages. |
+| 2. Data Extraction| Extracts relevant BibTeX data.                   |
+| 3. Data Merging   | Merges BibTeX entries into a single file.        |
+| 4. Final Output   | Outputs a consolidated BibTeX file.              |
+
+## Importance of BibTeX Automation
+
+The time saved can be quantified using an optimization formula for time efficiency:
+
+$$
+T_{\text{manual}} - T_{\text{automated}} = \Delta T_{\text{saved}}
+$$
+Where:
+- $T_{\text{manual}}$ is the time taken to manually collect citations.
+- $T_{\text{automated}}$ is the time taken using the automated tool.
+- $\Delta T_{\text{saved}}$ is the net time saved.
+
+Here is a sentence that references a footnote[^1].
+[^1]:Ihis can lead to significant time savings in large research projects.
+
+## Script
+
+-Relationship to other tools and efforts
+-Examples: TOOBIB and MED2BIB
+![Script Example 1](images/script1.png)
+
+![Script Example 2](images/script2.png)
+## Video about 
+
+Below is a video demonstration that shows how to generate references with LaTeX and BibTeX:
+
+
+<iframe width="413" height="232" src="https://www.youtube.com/embed/KS9GvK7cvmo" title="How to Generate References with LaTeX (BibTeX)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Tool Demonstration
+
+Below is a flowchart illustrating the process flow of the **Impromptu 
+BibTeX Find and Merge Tool**:
+
+<!---
+```mermaid
+graph TD;
+    A[Start Scraping] --> B{BibTeX Found?};
+    B -->|Yes| C[Extract Data];
+    B -->|No| D[End Process];
+    C --> E[Merge Entries];
+    E --> F[Generate BibTeX File];
+
+
+
+ This is a Quarto 
+website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

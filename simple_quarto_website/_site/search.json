@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Impromptu Bibtex Find and Merge Tool",
+    "section": "",
+    "text": "MJ Marchywka’s bash script for scraping BibTeX entries from arbitrary webpages.\nhunt for a “BibTeX citation” button or manually copy and paste formatted citations."
+  },
+  {
+    "objectID": "about.html#introduction",
+    "href": "about.html#introduction",
+    "title": "Impromptu Bibtex Find and Merge Tool",
+    "section": "",
+    "text": "MJ Marchywka’s bash script for scraping BibTeX entries from arbitrary webpages.\nhunt for a “BibTeX citation” button or manually copy and paste formatted citations."
+  },
+  {
+    "objectID": "about.html#script-overview",
+    "href": "about.html#script-overview",
+    "title": "Impromptu Bibtex Find and Merge Tool",
+    "section": "Script Overview",
+    "text": "Script Overview\n-this bash script automates the process of extracting BibTeX citations from arbitrary web pages, streamlining the workflow for researchers.\n-The script avoids manual efforts such as hunting for a BibTeX citation button or copying formatted citations.\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Generate data\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\n# Plot the data\nplt.plot(x, y)\nplt.title(\"Sine Wave Plot\")\nplt.xlabel(\"X-axis\")\nplt.ylabel(\"Y-axis\")\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Impromptu BibTeX Find and Merge Tool",
+    "section": "",
+    "text": "-The Impromptu BibTeX Find and Merge Tool, developed by MJ Marchywka, is a Bash script designed to scrape BibTeX entries from arbitrary web pages. -This tool simplifies the process of gathering citations by automating the detection of BibTeX entries for citation management (Marchywka 2021).\n\n“A tool that simplifies BibTeX citation management can significantly enhance research efficiency.” — Anonymous Researcher\n\n\n\nHere are the primary charactrstics of the Impromptu BibTeX Find and Merge Tool:\n\nAutomatic Detection: The tool automatically finds BibTeX citations on webpages.\nCustomizable Scraping: Users can modify the scraping parameters to suit their needs.\n\n\n\nManual BibTeX Entry: Finding and copying is time-consuming.\n\nAutomated BibTeX Entry: The tool automates BibTeX citation retrieval and merging.\n\n\n\n\n\nThe following table outlines the typical workflow of the Impromptu BibTeX Find and Merge Tool:\n\n\n\nStep\nDescription\n\n\n\n\n1. Web Scraping\nAutomatically detects BibTeX citations on pages.\n\n\n2. Data Extraction\nExtracts relevant BibTeX data.\n\n\n3. Data Merging\nMerges BibTeX entries into a single file.\n\n\n4. Final Output\nOutputs a consolidated BibTeX file.\n\n\n\n\n\n\nThe time saved can be quantified using an optimization formula for time efficiency:\n\\[\nT_{\\text{manual}} - T_{\\text{automated}} = \\Delta T_{\\text{saved}}\n\\] Where: - \\(T_{\\text{manual}}\\) is the time taken to manually collect citations. - \\(T_{\\text{automated}}\\) is the time taken using the automated tool. - \\(\\Delta T_{\\text{saved}}\\) is the net time saved.\nHere is a sentence that references a footnote[^1]. [^1]:Ihis can lead to significant time savings in large research projects.\n\n\n\n-Relationship to other tools and efforts -Examples: TOOBIB and MED2BIB \n ## Video about\nBelow is a video demonstration that shows how to generate references with LaTeX and BibTeX:\n\n\n\n\n\nBelow is a flowchart illustrating the process flow of the Impromptu BibTeX Find and Merge Tool:\n\nB{BibTeX Found?}; B –&gt;|Yes| C[Extract Data]; B –&gt;|No| D[End Process]; C –&gt; E[Merge Entries]; E –&gt; F[Generate BibTeX File];\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#features-of-the-tool",
+    "href": "index.html#features-of-the-tool",
+    "title": "Impromptu BibTeX Find and Merge Tool",
+    "section": "",
+    "text": "Here are the primary charactrstics of the Impromptu BibTeX Find and Merge Tool:\n\nAutomatic Detection: The tool automatically finds BibTeX citations on webpages.\nCustomizable Scraping: Users can modify the scraping parameters to suit their needs.\n\n\n\nManual BibTeX Entry: Finding and copying is time-consuming.\n\nAutomated BibTeX Entry: The tool automates BibTeX citation retrieval and merging."
+  },
+  {
+    "objectID": "index.html#tool-workflow",
+    "href": "index.html#tool-workflow",
+    "title": "Impromptu BibTeX Find and Merge Tool",
+    "section": "",
+    "text": "The following table outlines the typical workflow of the Impromptu BibTeX Find and Merge Tool:\n\n\n\nStep\nDescription\n\n\n\n\n1. Web Scraping\nAutomatically detects BibTeX citations on pages.\n\n\n2. Data Extraction\nExtracts relevant BibTeX data.\n\n\n3. Data Merging\nMerges BibTeX entries into a single file.\n\n\n4. Final Output\nOutputs a consolidated BibTeX file."
+  },
+  {
+    "objectID": "index.html#importance-of-bibtex-automation",
+    "href": "index.html#importance-of-bibtex-automation",
+    "title": "Impromptu BibTeX Find and Merge Tool",
+    "section": "",
+    "text": "The time saved can be quantified using an optimization formula for time efficiency:\n\\[\nT_{\\text{manual}} - T_{\\text{automated}} = \\Delta T_{\\text{saved}}\n\\] Where: - \\(T_{\\text{manual}}\\) is the time taken to manually collect citations. - \\(T_{\\text{automated}}\\) is the time taken using the automated tool. - \\(\\Delta T_{\\text{saved}}\\) is the net time saved.\nHere is a sentence that references a footnote[^1]. [^1]:Ihis can lead to significant time savings in large research projects."
+  },
+  {
+    "objectID": "index.html#script",
+    "href": "index.html#script",
+    "title": "Impromptu BibTeX Find and Merge Tool",
+    "section": "",
+    "text": "-Relationship to other tools and efforts -Examples: TOOBIB and MED2BIB \n ## Video about\nBelow is a video demonstration that shows how to generate references with LaTeX and BibTeX:"
+  },
+  {
+    "objectID": "index.html#tool-demonstration",
+    "href": "index.html#tool-demonstration",
+    "title": "Impromptu BibTeX Find and Merge Tool",
+    "section": "",
+    "text": "Below is a flowchart illustrating the process flow of the Impromptu BibTeX Find and Merge Tool:\n\nB{BibTeX Found?}; B –&gt;|Yes| C[Extract Data]; B –&gt;|No| D[End Process]; C –&gt; E[Merge Entries]; E –&gt; F[Generate BibTeX File];\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "slides/slides.html#introduction",
+    "href": "slides/slides.html#introduction",
+    "title": "Impromptu Bibtex Find and Merge Tool",
+    "section": "Introduction",
+    "text": "Introduction\n\nMJ Marchywka’s bash script for scraping BibTeX entries from arbitrary webpages.\nHunt for a “BibTeX citation” button or manually copy and paste formatted citations."
+  },
+  {
+    "objectID": "slides/slides.html#script-overview",
+    "href": "slides/slides.html#script-overview",
+    "title": "Impromptu Bibtex Find and Merge Tool",
+    "section": "Script Overview",
+    "text": "Script Overview\n\n\nAs described by (Marchywka 2021), this bash script automates the process of extracting BibTeX citations from arbitrary web pages.\nThe script avoids manual efforts such as hunting for a BibTeX citation button or copying formatted citations."
+  },
+  {
+    "objectID": "slides/slides.html#slide-3-script-in-action",
+    "href": "slides/slides.html#slide-3-script-in-action",
+    "title": "Impromptu Bibtex Find and Merge Tool",
+    "section": "Slide 3: Script in Action",
+    "text": "Slide 3: Script in Action\n\nRelationship to other tools and efforts\nExamples: TOOBIB and MED2BIB \n\n\n\n\nScript Example 2"
+  },
+  {
+    "objectID": "slides/slides.html#slide-4-python-code-example",
+    "href": "slides/slides.html#slide-4-python-code-example",
+    "title": "Impromptu Bibtex Find and Merge Tool",
+    "section": "Slide 4: Python Code Example",
+    "text": "Slide 4: Python Code Example\n\n\n\n\n\n\n\n\n\nMarchywka, M. J. 2021. “Impromptu Bibtex Find and Merge Tool.” Technical Report MJM-2021-002. 306 Charles Cox, Canton GA 30115: not institutionalized, independent. https://www.researchgate.net/publication/350608962_toobib."
+  }
+]

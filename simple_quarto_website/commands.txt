@@ -1,0 +1,56 @@
+Cloning Command:
+git clone https://github.com/JiahuiLiu44/5000-lab-1.2
+
+Command Output:
+Cloning into '5000-lab-1.2'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+Command: cd 5000-lab-1.2/simple_quarto_website
+No output
+Command: rm styles.css
+No output
+Command: nano _quarto.yml
+No output
+Command: mkdir images
+No output
+Command: mkdir slides
+No output
+Command: quarto convert about.qmd
+Output: Converted 'about.qmd' to 'about.ipynb'
+Command: ls
+Output:
+_quarto.yml	about.qmd	images		reference.bib
+about.ipynb	commands.txt	index.qmd	slides
+Command: more reference.bib
+Output:@article{gomez2014information,
+  author    = {Gomez-Jauregui, Valentin and Sanz-Arauz, David and 
+Gonzalez-Monroy, Jesus and De la Fuente, Adolfo},
+  title     = {Information management and improvement of citation 
+indices},
+  journal   = {International Journal of Information Management},
+  volume    = {34},
+  number    = {2},
+  pages     = {257--271},
+  year      = {2014},
+  publisher = {Elsevier}
+}
+
+@techreport{marchywka2021impromptu,
+  author      = {M. J. Marchywka},
+  title       = {Impromptu bibtex find and merge tool},
+  institution = {not institutionalized, independent},
+  address     = {306 Charles Cox, Canton GA 30115},
+  year        = {2021},
+  month       = {January},
+  note        = {Version 0.1.1, may change significantly if less than 
+1.00},
+  url         = 
+{https://www.researchgate.net/publication/350608962_toobib},
+  type        = {Technical Report},
+  number      = {MJM-2021-002}
+}
+
